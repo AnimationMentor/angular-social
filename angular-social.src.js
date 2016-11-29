@@ -142,7 +142,7 @@ app.directive('ngSocialFacebook', ['$parse', function ($parse) {
     }
   };
   return {
-    restrict: 'C',
+    restrict: 'AC',
     require: '^?ngSocialButtons',
     scope: true,
     replace: true,
@@ -196,7 +196,7 @@ app.directive('ngSocialTwitter', ['$parse', function ($parse) {
     }
   };
   return {
-    restrict: 'C',
+    restrict: 'AC',
     require: '^?ngSocialButtons',
     scope: true,
     replace: true,
@@ -261,7 +261,7 @@ app.directive('ngSocialGooglePlus', ['$parse', function ($parse) {
     }
   };
   return {
-    restrict: 'C',
+    restrict: 'AC',
     require: '^?ngSocialButtons',
     scope: true,
     replace: true,
@@ -321,7 +321,7 @@ app.directive('ngSocialVk', ['$parse', function ($parse) {
     }
   };
   return {
-    restrict: 'C',
+    restrict: 'AC',
     require: '^?ngSocialButtons',
     scope: true,
     replace: true,
@@ -382,7 +382,7 @@ angular.module("ngSocial").directive('ngSocialOdnoklassniki', ['$parse', functio
     }
   };
   return {
-    restrict: 'C',
+    restrict: 'AC',
     require: '^?ngSocialButtons',
     scope: true,
     replace: true,
@@ -428,7 +428,7 @@ angular.module("ngSocial").directive('ngSocialMailru', ['$parse', function ($par
     }
   };
   return {
-    restrict: 'C',
+    restrict: 'AC',
     require: '^?ngSocialButtons',
     scope: true,
     replace: true,
@@ -473,7 +473,7 @@ angular.module("ngSocial").directive('ngSocialPinterest', ['$parse', function ($
     }
   };
   return {
-    restrict: 'C',
+    restrict: 'AC',
     require: '^?ngSocialButtons',
     scope: true,
     replace: true,
@@ -515,7 +515,7 @@ angular.module("ngSocial").directive('ngSocialGithubForks', function () {
     clickUrl: 'https://github.com/{user}/{repository}/'
   };
   return {
-    restrict: 'C',
+    restrict: 'AC',
     require: '^?ngSocialButtons',
     scope: true,
     replace: true,
@@ -556,7 +556,7 @@ angular.module("ngSocial").directive('ngSocialGithub', function () {
     clickUrl: 'https://github.com/{user}/{repository}/'
   };
   return {
-    restrict: 'C',
+    restrict: 'AC',
     require: '^?ngSocialButtons',
     scope: true,
     replace: true,
@@ -605,7 +605,7 @@ app.directive('ngSocialStumbleupon', ['$parse', function ($parse) {
         }
     };
     return {
-        restrict: 'C',
+        restrict: 'AC',
         require: '^?ngSocialButtons',
         scope: true,
         replace: true,
@@ -650,7 +650,7 @@ app.directive('ngSocialMoiKrug', ['$parse', function ($parse) {
         }
     };
     return {
-        restrict: 'C',
+        restrict: 'AC',
         require: '^?ngSocialButtons',
         scope: true,
         replace: true,
@@ -703,7 +703,7 @@ app.directive('ngSocialLinkedin', ['$parse', function($parse) {
         }
     };
     return {
-        restrict: 'C',
+        restrict: 'AC',
         require: '^?ngSocialButtons',
         scope: true,
         replace: true,

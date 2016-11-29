@@ -15,7 +15,7 @@ angular.module("ngSocial").directive('ngSocialPinterest', ['$parse', function ($
     }
   };
   return {
-    restrict: 'C',
+    restrict: 'AC',
     require: '^?ngSocialButtons',
     scope: true,
     replace: true,

@@ -17,7 +17,7 @@ angular.module("ngSocial").directive('ngSocialMailru', ['$parse', function ($par
     }
   };
   return {
-    restrict: 'C',
+    restrict: 'AC',
     require: '^?ngSocialButtons',
     scope: true,
     replace: true,

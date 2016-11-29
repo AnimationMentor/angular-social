@@ -24,7 +24,7 @@ app.directive('ngSocialFacebook', ['$parse', function ($parse) {
     }
   };
   return {
-    restrict: 'C',
+    restrict: 'AC',
     require: '^?ngSocialButtons',
     scope: true,
     replace: true,

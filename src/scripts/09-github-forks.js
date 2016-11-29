@@ -11,7 +11,7 @@ angular.module("ngSocial").directive('ngSocialGithubForks', function () {
     clickUrl: 'https://github.com/{user}/{repository}/'
   };
   return {
-    restrict: 'C',
+    restrict: 'AC',
     require: '^?ngSocialButtons',
     scope: true,
     replace: true,

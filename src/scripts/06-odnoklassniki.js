@@ -29,7 +29,7 @@ angular.module("ngSocial").directive('ngSocialOdnoklassniki', ['$parse', functio
     }
   };
   return {
-    restrict: 'C',
+    restrict: 'AC',
     require: '^?ngSocialButtons',
     scope: true,
     replace: true,
