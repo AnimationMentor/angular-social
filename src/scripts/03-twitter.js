@@ -24,20 +24,19 @@ app.directive('ngSocialTwitter', ['$parse', function ($parse) {
     }
   };
   return {
-    restrict: 'AC',
+    restrict: 'A',
     require: '^?ngSocialButtons',
     scope: true,
     replace: true,
     transclude: true,
     template: '<li> \
-                    <a ng-href="{{ctrl.link(options)}}" target="_blank" ng-click="ctrl.clickShare($event, options)" class="ng-social-button"> \
-                        <span class="ng-social-icon"></span> \
-                        <span class="ng-social-text" ng-transclude></span> \
+                    <a ng-href="{{ctrl.link(options)}}" target="_blank" ng-click="ctrl.clickShare($event, options)" ng-social-button> \
+                        <span ng-social-icon></span> \
+                        <span ng-social-text ng-transclude></span> \
                     </a> \
-                    <span ng-show="count" class="ng-social-counter">{{ count }}</span> \
+                    <span ng-show="count" ng-social-counter>{{ count }}</span> \
                    </li>',
     link: function (scope, element, attrs, ctrl) {
-      element.addClass('ng-social-twitter');
       if (!ctrl) {
         return;
       }
