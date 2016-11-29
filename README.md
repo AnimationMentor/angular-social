@@ -17,14 +17,7 @@ Using:
      data-image="'http://s3.mistinfo.com/32/d8/32d8eab76f4c242f665bda66b5edc6c5.jpg'">
     <li>Share:</li>
     <li ng-social-facebook>Facebook</li>
-    <li ng-social-google-plus>Google+</li>
     <li ng-social-twitter>Twitter</li>
-    <li ng-social-vk>Вконтакте</li>
-    <li ng-social-odnoklassniki>Одноклассники</li>
-    <li ng-social-mailru>Мой мир</li>
-    <li ng-social-pinterest>Pinterest</li>
-    <li ng-social-github user="esvit" repository="ng-table">GitHub</li>
-    <li ng-social-github-forks user="esvit" repository="ng-table">Forks</li>
 </ul>
 ```
 
@@ -38,7 +31,6 @@ You can also define a custom url, title, description or image specific to the se
      data-image="'http://s3.mistinfo.com/32/d8/32d8eab76f4c242f665bda66b5edc6c5.jpg'">
     <li>Share:</li>
     <li ng-social-facebook>Facebook</li>
-    <li ng-social-google-plus>Google+</li>
     <li ng-social-twitter data-title="'Woah check this site!'">Twitter</li>
 </ul>
 ```
