@@ -24,7 +24,7 @@ app.directive('ngSocialButtons', ['$compile', '$q', '$parse', '$http', '$locatio
             },
             replace: true,
             transclude: true,
-            template: '<div ng-social-container ng-cloak><ul ng-social ng-transclude></ul></div>',
+            template: '<ul ng-social ng-transclude></ul>',
             controller: ['$scope', '$q', '$http', function ($scope, $q, $http) {
                 var getUrl = function () {
                     return $scope.url || $location.absUrl();
